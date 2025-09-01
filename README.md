@@ -2,7 +2,6 @@
 [![hacs_badge](https://img.shields.io/badge/hacs-Default-41BDF5.svg)](https://hacs.xyz)
 [![GitHub](https://img.shields.io/github/license/Andre0512/hon?color=red)](https://github.com/Andre0512/hon/blob/main/LICENSE)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Andre0512/hon/python_check.yml?branch=main&label=checks)](https://github.com/Andre0512/hon/actions/workflows/python_check.yml)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-donate-orange.svg)](https://www.buymeacoffee.com/paroque28)  
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Andre0512/hon?color=green)](https://github.com/Andre0512/hon/releases/latest)
 [![GitHub all releases](https://img.shields.io/github/downloads/Andre0512/hon/latest/total?color=blue&label=downloads)](https://tooomm.github.io/github-release-stats/?username=Andre0512&repository=hon)
 [![GitHub all releases](https://img.shields.io/github/downloads/Andre0512/hon/total?color=blue&label=total%20downloads)](https://tooomm.github.io/github-release-stats/?username=Andre0512&repository=hon)
@@ -735,11 +734,11 @@ Support has been confirmed for these **44 models**, but many more will work. Ple
 
 
 ## Installation
-**Method 1:** [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=paroque28&repository=hon&category=integration)
+**Method 1:** [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=martini1992&repository=hon&category=integration)
 
 **Method 2:** [HACS](https://hacs.xyz/) > Integrations > Add Integration > **Haier hOn** > Install  
 
-**Method 3:** Manually copy `hon` folder from [latest release](https://github.com/paroque28/hon/releases/latest) to `config/custom_components` folder.
+**Method 3:** Manually copy `hon` folder from [latest release](https://github.com/martini1992/hon/releases/latest) to `config/custom_components` folder.
 
 _Restart Home Assistant_
 
@@ -853,14 +852,15 @@ For every device exists a button under diagnostics which can be used to log all 
 - Use [pyhOn's translate command](https://github.com/Andre0512/pyhOn#translation) to read out the official translations
 
 ## Special Thanks
+- To [@Andre0512](https://github.com/Andre0512/hon) and [@paroque28](https://github.com/paroque28/hon), so I don't have rush out to the shed to know how long the laundry has left. 👍
+
+### By @Andre0512
 - to [@alexandre-leites](https://github.com/alexandre-leites), [@MiguelAngelLV](https://github.com/MiguelAngelLV) and [@drudgebg](https://github.com/drudgebg) for contributing early to this project and adding new integrations.
 - to [gvigroux/hon](https://github.com/gvigroux/hon), [signalize/hon-app-research](https://github.com/signalize/hon-app-research) and [slegars56/hon](https://github.com/slegars56/hon) for inspiring me to do this integration and for doing pioneer work on the hOn api.
 - to everyone who contributed, created an issue, gave this repo a star, and used this integration.
 - to the patience of my girlfriend as I work on this integration.
 
 ## Support
-If you find this project helpful and would like to support its development, you can buy me a coffee! ☕
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/paroque28)
-
 Don't forget to star the repository if you found it useful! ⭐
+
+Also show your support on the parents of this fork, [@Andre0512](https://github.com/Andre0512/hon) and [@paroque28](https://github.com/paroque28/hon)
