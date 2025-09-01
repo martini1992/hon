@@ -202,6 +202,14 @@ SENSORS: dict[str, tuple[SensorEntityDescription, ...]] = {
             translation_key="stain_type",
             option_list=const.STAIN_TYPES,
         ),
+        HonSensorEntityDescription(
+            key="delayTime",
+            name="Start Time",
+            icon="mdi:clock-start",
+            state_class=SensorStateClass.MEASUREMENT,
+            native_unit_of_measurement=UnitOfTime.MINUTES,
+            translation_key="delay_time",
+        ),
     ),
     "TD": (
         HonSensorEntityDescription(
