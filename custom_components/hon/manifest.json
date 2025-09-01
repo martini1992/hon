@@ -5,9 +5,9 @@
     "@martini1992"
   ],
   "config_flow": true,
-  "documentation": "https://github.com/paroque28/hon/",
+  "documentation": "https://github.com/martini1992/hon/",
   "iot_class": "cloud_push",
-  "issue_tracker": "https://github.com/paroque28/hon/issues",
+  "issue_tracker": "https://github.com/martini1992/hon/issues",
   "requirements": [
     "pyhOn==0.17.5"
   ],
